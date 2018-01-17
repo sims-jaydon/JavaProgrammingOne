@@ -10,13 +10,13 @@ import java.util.Scanner;
  */
 public class C6_18 {
 
-    /**
+    
+    public static final int PASSWORD_REQUIRED_LENGTH = 8;
+/**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static final int PASSWORD_REQUIRED_LENGTH = 8;
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your password: ");
@@ -30,7 +30,11 @@ public class C6_18 {
             System.out.println("Invalid Password");
         }
     }
-
+    /**
+     *
+     * @param password
+     * @return the valid password
+     */
     public static boolean isValidPassword(String password) {
         if (password.length() < PASSWORD_REQUIRED_LENGTH) {
             return false;
