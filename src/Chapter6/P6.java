@@ -64,6 +64,13 @@ public class P6 {
         }
     }
 
+    /**
+     * Method to take the fee out of the conversion
+     *
+     * @param d original number of dollars
+     * @param c amount once converted
+     * @return final total
+     */
     public static double Conversion(double d, double c) {
         double FinalTotal;
         double fee;

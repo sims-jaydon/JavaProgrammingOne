@@ -10,9 +10,9 @@ import java.util.Scanner;
  */
 public class C6_18 {
 
-    
     public static final int PASSWORD_REQUIRED_LENGTH = 8;
-/**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -30,9 +30,11 @@ public class C6_18 {
             System.out.println("Invalid Password");
         }
     }
+
     /**
+     * Method that checks the password requirements
      *
-     * @param password
+     * @param password the password that the user entered
      * @return the valid password
      */
     public static boolean isValidPassword(String password) {
@@ -54,11 +56,23 @@ public class C6_18 {
         return (charCount >= 2 && numCount >= 2);
     }
 
+    /**
+     * Method that makes sure the characters are upper case
+     *
+     * @param ch the characters the user entered
+     * @return true or false
+     */
     public static boolean isLetter(char ch) {
         ch = Character.toUpperCase(ch);
         return (ch >= 'A' && ch <= 'Z');
     }
 
+    /**
+     * Method that checks the numbers
+     *
+     * @param ch the numbers the user entered
+     * @return true or false
+     */
     public static boolean isNumeric(char ch) {
         return (ch >= '0' && ch <= '9');
     }
