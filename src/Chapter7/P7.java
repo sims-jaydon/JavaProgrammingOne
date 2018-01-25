@@ -11,6 +11,7 @@ import java.util.Arrays;
 public class P7 {
 
     /**
+     * Main method
      *
      * @param args reads from the keyboard
      */
@@ -26,6 +27,7 @@ public class P7 {
     }
 
     /**
+     * Method to retrieve the array size
      *
      * @param array holds the array
      * @param arraysize holds the array size
@@ -40,6 +42,7 @@ public class P7 {
     }
 
     /**
+     * Method to calculate the average
      *
      * @param array hold the array
      * @param arraysize holds the array size

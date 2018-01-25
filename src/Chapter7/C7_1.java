@@ -37,7 +37,7 @@ public class C7_1 {
     /**
      * Method to get the best score
      *
-     * @param studentScoreArray
+     * @param studentScoreArray holds the student score in an array
      * @return the best score
      */
     public static int getBestScore(int[] studentScoreArray) {

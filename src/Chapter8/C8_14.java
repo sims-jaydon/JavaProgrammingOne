@@ -11,6 +11,7 @@ public class C8_14 {
     static final int TIME = 1;
 
     /**
+     * Main method
      *
      * @param args reads input from the keyboard
      */
@@ -33,8 +34,9 @@ public class C8_14 {
     }
 
     /**
+     * Method to assign hours to the array
      *
-     * @param m
+     * @param m holds one of the arrays
      * @return the total hours
      */
     public static int[][] calcTotalHours(int[][] m) {
@@ -48,6 +50,7 @@ public class C8_14 {
     }
 
     /**
+     * Method to calculate the total hours
      *
      * @param m part of the array
      * @param row rows in the array
@@ -62,6 +65,7 @@ public class C8_14 {
     }
 
     /**
+     * Method to sort the array
      *
      * @param m part of the array
      */

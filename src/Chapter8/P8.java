@@ -10,8 +10,9 @@ import java.util.*;
 public class P8 {
 
     /**
+     * Main Method
      *
-     * @param args read input from the keyboard
+     * @param args arguments from command line prompt
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

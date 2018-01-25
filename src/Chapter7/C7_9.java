@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class C7_9 {
 
     /**
+     * Main method
      *
      * @param args reads from the keyboard
      */
@@ -22,6 +23,7 @@ public class C7_9 {
     }
 
     /**
+     * Method to calculate the minimum element
      *
      * @param minimumElementArray holds minimum element
      */
@@ -36,6 +38,7 @@ public class C7_9 {
     }
 
     /**
+     * Method to calculate the smallest element
      *
      * @param array holds the array
      * @return the smallest element

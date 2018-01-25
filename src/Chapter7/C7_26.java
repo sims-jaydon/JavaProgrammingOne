@@ -35,6 +35,7 @@ public class C7_26 {
     }
 
     /**
+     * Method to calculate the array
      *
      * @param arrayList holds the array
      */
@@ -45,6 +46,7 @@ public class C7_26 {
     }
 
     /**
+     * Method to assist comparing the strings
      *
      * @param list1 holds the first list
      * @param list2 holds the list that's compared to the other
